@@ -36,7 +36,7 @@ router.post('/', async (req, res) => {
     // BUG 1 is somewhere in the four lines below ↓
     const { student_name, student_id, activity_date, hours, recipient } = req.body;
     const record = await serviceModel.addRecord(
-      student_name, student_id, activity_date, numHours, recipient
+      student_name, student_id, activity_date, hours, recipient
     );
     res.status(201).json(record);
   } catch (err) {
