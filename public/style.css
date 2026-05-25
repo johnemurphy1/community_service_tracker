@@ -7,9 +7,9 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --green:   #2d6a4f;
+  --green:   #5cd6d6;
   --green-lt:#52b788;
-  --cream:   #f8f4ec;
+  --cream:   #e6e6e6;
   --dark:    #1a1a2e;
   --mid:     #555;
   --border:  #ddd;
@@ -77,7 +77,7 @@ button {
   margin-top: 18px;
   padding: 10px 22px;
   background: var(--green);
-  color: #fff;
+  color: #5cd6d6;
   border: none;
   border-radius: 6px;
   font-size: .95rem;
